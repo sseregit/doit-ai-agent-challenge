@@ -1,0 +1,12 @@
+[
+    {
+        "no": 1,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) The display case shows a variety of round breads.\n- (2) Many of the breads are dusted with flour.\n- (3) There are workers behind the counter wearing white caps.\n- (4) There is a person standing at the front wearing a red shirt.",
+        "img": "mangwon_bakery.jpg"
+    },
+    {
+        "no": 2,
+        "eng": "Which of the following descriptions of the image is incorrect?\n- (1) It shows many people sitting at long rows of tables using laptops.\n- (2) There is a large screen on the stage with a presentation in progress.\n- (3) The interior lighting is dim, creating a calm atmosphere.\n- (4) Purple banners are hanging on the wall, with the text “DIVE 2024 IN BUSAN.”",
+        "img": "busan_dive.jpg"
+    }
+]
