@@ -38,7 +38,10 @@ env/
 *.rttm
 chap*/audio/
 chap*/data/audio/
+chap*/data
+chap09/chroma_store
 
 # OS
 .DS_Store
 Thumbs.db
+
