@@ -48,5 +48,5 @@ while True:
       ai_message += chunk
   print('')
 
-  message_only = ai_message.content.split("</think>")[1].strip()
+  message_only = ai_message.content
   messages.append(AIMessage(message_only))
