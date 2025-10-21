@@ -39,7 +39,7 @@ env/
 chap*/audio/
 chap*/data/audio/
 chap*/data
-chap09/chroma_store
+chap*/chroma_store
 
 # OS
 .DS_Store
