@@ -40,7 +40,7 @@ chap*/audio/
 chap*/data/audio/
 chap*/data
 chap*/chroma_store
-
+*.png
 # OS
 .DS_Store
 Thumbs.db
