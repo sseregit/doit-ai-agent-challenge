@@ -12,6 +12,12 @@ def save_state(current_path, state):
   state_dict["messages"] = messages
   state_dict["task_history"] = [task.to_dict() for task in state.get("task_history", [])]
 
+  references = state.get("references", {"queries": [], "docs": []})
+  state_dict["references"] = {
+    "queries": references["queries"],
+    "docs": [doc.metadata for doc in references["docs"]],
+  }
+
   with open(f"{current_path}/data/state.json", "w", encoding='utf-8') as f:
     json.dump(state_dict, f, indent=4, ensure_ascii=False)
 
